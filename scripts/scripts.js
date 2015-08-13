@@ -7,6 +7,12 @@ $(function(){
         return false;
     });
 
+    $('.logotype a').on('click', function() {
+        event.preventDefault();
+        $('.main').slideToggle();
+        return false;
+    });
+
     $(window).scroll(function() {
         var windscroll = $(window).scrollTop();
         if (windscroll >= 100) {
