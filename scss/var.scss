@@ -1,0 +1,22 @@
+$headings: h1, h2, h3, h4, h5, h6;
+
+$light: 'avenir-cyr-light';
+$bold: 'avenir-cyr-bold';
+
+$black: #000;
+$white: #FFF;
+
+$rgba-255-2: rgba(255, 255, 255, 0.2);
+
+//$primary-color: #0061ab;
+$primary-color: #212121;
+
+$primary-lighten: lighten($primary-color, 10%);
+$primary-color-2: #2196F3;
+
+$primary-color-3: #CFD8DC;
+$primary-color-4: #B0BEC5;
+
+$border-width: 1px;
+$border-color: #2196F3;
+$border-color-hover: #039BE5;
